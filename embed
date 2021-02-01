@@ -1,0 +1,8 @@
+const embed = Discord.MessageEmbed()
+.setTitle
+.addField
+.setDescription
+.setImage
+.setThumbnail
+.setTimestamp
+message.channel.send(embed)

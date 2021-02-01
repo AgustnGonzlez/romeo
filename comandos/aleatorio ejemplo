@@ -1,0 +1,6 @@
+let random1 = ["He ganado! Elegi papel. El papel cubre a la roca.",
+                   "Has ganado! Elegi tijera. Las tijeras no pueden cortar rocas.",
+                   "Empate. Piedra vs piedra, gana... La piedra!"]
+
+    // Enviamos el mensaje aplicando Math.random() que nos dara una respuesta aleatoria de la matriz.
+    message.reply(" "+random1[Math.floor(Math.random() * random1.length)]+"")
